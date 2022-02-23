@@ -9,4 +9,3 @@ def test_recommender():
     movies = pd.read_csv('data/movies.csv')
     recommendations = recommend_random(movies=movies)
     assert len(recommendations)==10
-    
